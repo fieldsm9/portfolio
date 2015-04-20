@@ -111,3 +111,16 @@ h1 {
   color: #B9272B;
   text-decoration: none;
 }
+
+#blog {
+  width: 640px;
+  position: absolute;
+  left: 320px;
+  top: 325px;
+  font-family: Arial, sans-serif;
+}
+
+#blog a {
+  color: #B9272B;
+  text-decoration: none;
+}
