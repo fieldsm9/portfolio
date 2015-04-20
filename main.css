@@ -1,32 +1,70 @@
-li {
-    display: inline;
-    float: left;
-}
-
-ul {
+.nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
-.twitter {
-	width=220;
-	height=400;
+.nav li {
+    float: left;
 }
 
-a link, a :visited {
-    display: block;
-    width: 120px;
-    font-weight: bold;
-    color: #FFFFFF;
-    background-color: #98bf21;
+.nav a:link, a:visited {
+    line-height: 60px;
+  display: inline-block;
+    width: 160px;
+  height: 65px;
+   font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #FFFEE1 ;
+    background-color: #0C293A ;
     text-align: center;
     padding: 4px;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: none;
 }
 
-a :hover, a :active {
-    background-color: #7A991A;
+.nav a:hover, a:active {
+    background-color: #243E4E;
 }
-	
+
+.nav {
+  position: absolute;
+  left: 240px;
+  top: 220px;
+}
+
+.twitter {
+  width: 220px;
+  position: absolute;
+  left: 20px;
+  top: 420px;
+}
+
+#headshot {
+  width: 220px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+#header {
+  position: absolute;
+  left: 240px;
+  top: 20px;
+}
+
+#connect {
+  position: absolute;
+  left: 30px;
+  top: 325px;
+}
+
+#footer {
+  background-color: #0C293A;
+  width: 960px;
+  height: 30px;
+  position: absolute;
+  left: 20px;
+  top: 1050px;
+}
