@@ -68,3 +68,45 @@
   left: 20px;
   top: 1050px;
 }
+
+.bio {
+  position: absolute;
+  left: 300px;
+  top: 325px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #6D2224 ;
+}
+
+.bio a {
+  color: #B9272B;
+  text-decoration: none;
+}
+
+.latestpost {
+  width: 280px;
+  position: absolute;
+  left: 300px;
+  top: 525px;
+  font-family: Arial, sans-serif;
+}
+
+.latestpost a {
+  color: #B9272B;
+  text-decoration: none;
+}
+
+.latestproject {
+  width: 280px;
+  position: absolute;
+  left: 660px;
+  top: 525px;
+  font-family: Arial, sans-serif;
+}
+
+.latestproject a {
+  color: #B9272B;
+  text-decoration: none;
+}
