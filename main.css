@@ -169,7 +169,8 @@ h1 {
 }
 
 .maincontainer {
-width:100%;
-margin-left: auto;
-margin-right: auto;
+ position: absolute;
+ left: 50%;
+        margin-left:-480px;
+        width: 960px;
 }
