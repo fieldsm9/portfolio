@@ -169,6 +169,7 @@ h1 {
 }
 
 .maincontainer {
+margin: 0 auto;
 margin-left: auto;
 margin-right: auto;
 }
