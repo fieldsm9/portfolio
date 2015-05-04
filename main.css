@@ -167,3 +167,8 @@ h1 {
   color: #B9272B;
   text-decoration: none;
 }
+
+.maincontainer {
+margin-left: auto;
+margin-right: auto;
+}
